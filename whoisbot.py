@@ -16,10 +16,10 @@ from apscheduler.schedulers.background import BlockingScheduler
 whitelist_ip = ''
 whitelist_description = ''
 whitelist_country = ''
-botEmail = "bob8gook_whois@webex.bot"
-#botEmail = "bob8gook_test@webex.bot"
-accessToken = "MGY3ZWI0N2ItZjI0ZC00MzQ2LWFlNjYtNDc0MWM3NDNlNGQ2ODI1MzQ4MzAtZmMz_PF84_22cb7792-d880-4ec5-b6a6-649d9411bb5e"
-#accessToken = 'NDIzZjQwMjktMzEyMi00Zjg2LTk0ZWMtYTgzZWExMTRlMWY4MzA5NjZmYzEtM2E0_PF84_22cb7792-d880-4ec5-b6a6-649d9411bb5e'
+botEmail = "-@webex.bot"
+#botEmail = "-@webex.bot"
+accessToken = "-"
+#accessToken = '-'
 headers = {"Authorization": "Bearer %s" % accessToken, "Content-Type": "application/json", 'Accept' : 'application/json'}
 
 now = datetime.datetime.now()
